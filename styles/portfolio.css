@@ -11,9 +11,36 @@
 .primary_color{
   color: #FD6E0A;
 }
+.dark_2{
+  color: #474747;
+}
+.btn_primary{
+  background-color: #FD6E0A;
+  padding: 18px 35px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #FFFFFF;
+  border-radius: 5px;
+  border: none;
+}
 /* ===== Nav styles ===== */
 nav{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+nav ul{
+  display: flex;
+  align-items: center;
+}
+nav ul li{
+  list-style: none;
+  margin-right: 50PX;
+  font-size: 20px;
+}
+nav li a{
+  text-decoration: none;
 }
 .nav_title{
   font-weight: 800;
