@@ -226,3 +226,54 @@ border: none;
 margin-bottom: 24px;
 color: #474747;
 }
+.hide{
+  display: none;
+}
+
+/* responsive for small device */
+@media screen and (max-width: 576px) {
+  .header{
+    background-image: none;
+  }
+  .profile_picture{
+    width: 100%;
+  }
+  .banner{
+    margin: 0;
+    }
+  .banner_title{
+    font-size: 60px;
+  }
+  .banner_content{
+    width: 100%;
+  }
+  nav ul{
+    gap: 15px;
+  }
+  .skils_container,
+  .resume_container,
+  .footer_container,
+  .about_items,
+  .banner,
+  nav,
+  nav ul {
+    flex-direction: column;
+  }
+  .skills_desc{
+    padding: 20px;
+  }
+  main section{
+    margin: 40px 0;
+  }
+    input[type="text"],
+    input[type="email"],
+    textarea{
+      padding: 25px 0px;
+    }
+    .footer_container{
+      padding: 40px 0;
+    }
+    .about{
+      padding: 40px 20px;
+    }
+}
